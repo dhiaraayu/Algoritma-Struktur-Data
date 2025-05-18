@@ -60,7 +60,7 @@ void push_riwayat(Pesanan *data)
   top = NS;
 }
 
-void dequeue() // fungsi untuk melayani pembeli
+void dequeue() 
 {
   if (queuekosong())
   {
@@ -105,7 +105,7 @@ void cetakqueue()
   cout << endl;
 }
 
-void batalkanpesanan() // fungsi untuk membatalkan pesanan
+void batalkanpesanan() 
 {
   if (queuekosong())
   {
