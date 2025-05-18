@@ -25,7 +25,7 @@ bool queuekosong()
   return (depan == NULL);
 }
 
-void enqueue() // fungsi untuk menambahkan pesanan ke antrean
+void enqueue() 
 {
   Pesanan *NB = new Pesanan();
   NB->next = NULL;
@@ -50,7 +50,7 @@ void enqueue() // fungsi untuk menambahkan pesanan ke antrean
   belakang = NB;
 }
 
-void push_riwayat(Pesanan *data) // fungsi untuk menyimpan ke riwayat menggunakan stack
+void push_riwayat(Pesanan *data) 
 {
   Stackpesanan *NS = new Stackpesanan();
   NS->info = data->info;
@@ -84,7 +84,7 @@ void dequeue() // fungsi untuk melayani pembeli
   }
 }
 
-void cetakqueue() // fungsi untuk menampilkan pesanan
+void cetakqueue() 
 {
   Pesanan *bantu = depan;
   int nomor = 1;
@@ -132,7 +132,7 @@ void batalkanpesanan() // fungsi untuk membatalkan pesanan
   belakang->next = NULL;
 }
 
-void cetakriwayat() // fungsi untuk menampilkan riwayat yg sudah disimpan menggunakan stack
+void cetakriwayat() 
 {
   if (top == NULL)
   {
