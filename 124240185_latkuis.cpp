@@ -208,9 +208,9 @@ void update_gaji(Pegawai data_pegawai[], int jumlah, int cari)
   {
     if (data_pegawai[i].id == cari)
     {
-      cout << "ID Pegawai: " << dataPegawai[i].id << endl;
-      cout << "Nama Pegawai: " << dataPegawai[i].nama << endl;
-      cout << "Gaji Pegawai: " << dataPegawai[i].gaji << endl;
+      cout << "ID Pegawai: " << data_Pegawai[i].id << endl;
+      cout << "Nama Pegawai: " << data_pegawai[i].nama << endl;
+      cout << "Gaji Pegawai: " << data_pegawai[i].gaji << endl;
       cout << "Masukkan gaji baru: ";
       cin >> gaji_baru;
       data_pegawai[i].gaji = gaji_baru;
