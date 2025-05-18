@@ -39,10 +39,6 @@ int main()
       cout << "=== Tambah Data Pegawai ===\n";
       cout << "Masukkan jumlah data: ";
       cin >> jumlah;
-      for (int i = 0; i < jumlah; i++)
-      {
-        tambah_data(data_pegawai, jumlah);
-      }
       break;
     case 2:
       system("cls");
@@ -106,11 +102,6 @@ void tambah_data(Pegawai data_pegawai[], int &jumlah)
     cout << "Gagal membuka file!" << endl;
     return;
   }
-
-  int tambah;
-  cout << "=== Tambah Data Pegawai ===\n";
-  cout << "Masukkan jumlah data: ";
-  cin >> tambah;
   for (int i = 0; i < jumlah; i++)
   {
     cout << "Masukkan ID: ";
