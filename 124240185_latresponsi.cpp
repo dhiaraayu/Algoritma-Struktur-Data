@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 
 struct Spotify_KW
@@ -96,7 +95,6 @@ Spotify_KW *cari_lagu(Node *root, const string &judul)
 
 void daftar_lagu(Node *root)
 {
-  int nomor = 1;
   if (root == nullptr)
     return;
   daftar_lagu(root->left);
