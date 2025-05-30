@@ -478,6 +478,9 @@ int main()
       tampilkan_transaksi();
       system("pause");
       break;
+    case 0:
+      cout << "Terima kasih" << endl;
+      return 0;
     default:
       cout << "Pilihan tidak valid" << endl;
       system("pause");
