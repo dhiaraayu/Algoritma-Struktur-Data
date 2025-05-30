@@ -137,7 +137,7 @@ void putar_lagu()
   }
 }
 
-Node *minValueNode(Node *node)
+Node *min_valueNode(Node *node)
 {
   Node *current = node;
   while (current && current->left != nullptr)
